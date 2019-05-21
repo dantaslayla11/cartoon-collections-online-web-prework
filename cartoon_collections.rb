@@ -20,7 +20,7 @@ def long_planeteer_calls(array)
     puts item
     if (item.length > 4)
       return true
-    elsif item.length<=4
+    elsif item.length<4
       i=i+1;
     end
   end
