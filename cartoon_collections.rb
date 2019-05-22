@@ -22,6 +22,7 @@ end
 
 
 def find_the_cheese(array)
-   if array
+   if array = 2 
+     puts "cheddar"
 end
 end
