@@ -15,7 +15,6 @@ end
 
 
 def long_planeteer_calls(array)
-  i = 0 
   array.each do |item|
     puts item
     if (item.length > 4)
