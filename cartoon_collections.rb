@@ -22,9 +22,8 @@ end
 
 
 def find_the_cheese(array)
-    if array = cheddar_cheese
-      puts cheddar_cheese[2]
-    end 
+     array.include?("cheddar") 
+   
    
         
     
