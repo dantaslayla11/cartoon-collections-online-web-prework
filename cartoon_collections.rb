@@ -21,8 +21,9 @@ end
 
 
 
-def find_the_cheese(array, string)
-  array.include?("cheddar
-  string.include?("cheddar")
+def find_the_cheese(array)
+  array.each do |item| 
+    if item.include?("cheddar")
+      return item 
 end
 end
