@@ -22,5 +22,5 @@ end
 
 
 def find_the_cheese(array)
-  array.any? {|item|item.include?"cheddar"}
+  array.include?("cheddar")
 end
