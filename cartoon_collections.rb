@@ -15,8 +15,8 @@ end
 
 
 def long_planeteer_calls(array)
-a = array.any? {|item|item.lenght>4}
- puts a 
+ array.any? {|item|item.length>4}
+ 
 end
 
 
