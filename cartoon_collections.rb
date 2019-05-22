@@ -22,9 +22,8 @@ end
 
 
 def find_the_cheese(array)
-  array.each do |item| 
     if item.include?("cheddar")
-      return item 
+      
     end
   end
 end 
